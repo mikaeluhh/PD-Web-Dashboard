@@ -1,0 +1,49 @@
+.visual-container {
+  background: #ffffff;
+  border-radius: 15px;
+  margin: 1rem 0.47rem 0.5rem 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 97%;
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+}
+  
+.visual-title {
+  color: #A0AEC0; 
+  font-size: 0.7rem; 
+  margin: 0.5rem;
+  font-weight: bold; 
+  letter-spacing: 0.05rem;
+}
+  
+.visual-content {
+  color: #2D3748; 
+  font-size: 1rem; 
+  margin: 0.5rem;
+  font-weight: bold; 
+  letter-spacing: 0.05rem;
+}
+  
+.spec-placeholder {
+  position: absolute;
+  /* top: 1rem;
+  right: 1rem;
+  left: 1rem;
+  bottom: 1rem; */
+  right: 0.5rem;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  top: 3.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.spec-placeholder img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}

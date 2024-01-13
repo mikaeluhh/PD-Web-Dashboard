@@ -1,0 +1,66 @@
+.sidebar {
+    height: calc(100vh - 3rem);
+    width: 12rem;
+    position: sticky;
+    background-color: #111C44;
+    z-index: 0;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: larger;
+}
+
+.divider {
+    height: 0.05rem;
+    width: 75%;
+    background: linear-gradient(to left, transparent 0%, #ccc 10%, #ccc 75%, transparent 100%);
+    margin: 0 auto;
+}
+
+.sideMenu {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    padding-left: 0.5rem;
+}
+
+.sideMenuItem {
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: medium;
+    display: flex; 
+    align-items: center;
+
+}
+
+.menuIcon {
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+    justify-content: center; 
+    align-items: center;
+    background-color: #1B254B;
+}
+
+.menuIcon.active {
+    background-color: #3182CE; 
+}
+
+.sideMenuItem.active {
+    background-color: #1B254B;
+    border-radius: 0.5rem;
+}

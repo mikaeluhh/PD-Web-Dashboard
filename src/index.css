@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1B254B;
+  overflow-y: scroll;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  height: 20rem;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background-color: #0B1437;
+
+}
+
+/* Additional styles for the rest of your application go here */

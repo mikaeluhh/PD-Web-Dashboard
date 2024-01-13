@@ -1,0 +1,45 @@
+.signal-info-container {
+  width: 63%;
+height: 93%;
+    background: #111C44; 
+    border-radius: 0.75rem;
+    margin: 1rem 0.5rem 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    overflow: hidden;
+  
+  }
+  
+  .signal-info-title {
+  /* top: 1rem;  */
+  left: 1rem;
+  font-size: 1.1rem; 
+  color: white; 
+  margin: 0;
+  font-weight: bold; 
+  letter-spacing: 0.05rem;
+  }
+  
+  .signal-chart-placeholder {
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem; 
+    border-radius: 0.5rem;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden; 
+    
+  }
+  
+  .signal-chart-placeholder img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0.5; 
+  object-fit: cover;
+  }
